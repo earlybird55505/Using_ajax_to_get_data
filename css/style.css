@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/01.webp") ;
+    background-position: center;
+    height: 100vh;
+    background-repeat: repeat;
+    background-size:100%;
+    position: relative;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(
+    45deg, #eb45eb, transparent); 
+    
+} 
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(47, 0, 255);
+    padding-top: 25px;
+}
+
+#button {
+    background: #00000054;
+    color: #fff;
+}
+
+#button:hover {
+    background: #00bcd4;
+}
+
+#output{
+    font-size: 20px;
+    color: #310499;
+}
+
+
